@@ -1,0 +1,27 @@
+@import url(variable.css);
+
+body{
+    
+   background: var(--background-color);
+}
+.container{
+   
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.square {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 90vh;
+    background-color: #555;
+    align-items: center;
+  }
+  .circle{
+    height: 70vh;
+    width: 70vh;
+    background-color: green;
+    border-radius: 50%;
+  }
